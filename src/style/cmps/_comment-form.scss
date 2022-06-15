@@ -1,0 +1,35 @@
+.comment-form {
+   background-color: rgb(237, 236, 237);
+   border-radius: 5px 5px 0px 0px ;
+   // margin: 0px 30px 0px 30px;
+   padding: 20px 20px 20px 20px;
+   text-align: left;
+
+   form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      input,
+      textarea {
+         font-family: sans-serif;
+         border: 1px solid rgb(198, 197, 198);
+         color: rgb(106, 105, 106);
+         width: 100%;
+         line-height: 30px;
+         padding-left: 10px;
+         resize: none;
+      }
+
+      :last-child {
+         cursor: pointer;
+         background-color: rgb(61, 156, 216);
+         color: #FFF;
+         border: unset;
+         border-radius: 3px;
+         padding: 2px;
+         width: 60px;
+      }
+
+   }
+}
